@@ -1,0 +1,155 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	line-height: 1.5;
+	background-color: #3d4143;
+	color: #a6b7bf;
+	margin: 0px;
+}
+
+h1 {
+	font-family: 'Bitter', serif;
+	font-size: 2.5em;
+	color: #c8dce5;
+	margin: 0px;
+	line-height: 80px;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
+
+h2 {
+	color: #c8dce5;
+	font-family: 'Bitter', serif;
+	margin-top: 30px;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.main-photo img {
+	width: 100%;
+}
+
+a {
+	color: rgb(116, 171, 0);
+	text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.main-text {
+  	max-width: 800px;
+  	margin-top: 30px;
+  	overflow: hidden;
+  	margin-right: 100px;
+  }
+
+.text-quote {
+	margin-bottom: 0%;
+}
+
+.quote {
+	margin: 0%;
+	float: right;
+	}
+
+.photo-credit {
+	text-align: right;
+	font-size: 9pt;
+	color: #879399;
+	padding-right: 15px;
+	margin-top: -20px;
+}
+
+.text-lighten .photo-credit {
+	color: #BABFC1;
+}
+
+.content {
+	margin: 0px;
+	padding-left: 220px;
+}
+
+.top-gray {
+	height: 80px;
+	margin: 0px;
+	padding-left: 220px;
+	background-color: #3d4143;
+	background-image: url(copy-cropped-header-default.png);
+	background-repeat: no-repeat;
+	background-position: left 115px center;
+}
+
+.social-media {
+	padding-right: 220px;
+	color: rgb(116, 171, 0);
+}
+
+.container {
+	overflow: hidden;
+}
+
+.footer {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.social-media {
+	padding-left: 220px;
+	color: rgb(116, 171, 0);
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 1)
+}
+
+.logos img {
+	width: 100%;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.card {
+  width: 200px;
+  float: left;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.title {
+	font-size: 18px;
+    font-family: 'Bitter', serif;
+    padding-top: 6px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .main-text {
+  	margin-right: 10%;
+  	margin-top: 30px;
+  	font-size: 14px;
+  	text-align: justify;
+  }
+  .content {
+	margin: 0px;
+	padding-left: 10px;
+  }
+ 
+  .social-media {
+  	padding-left: 10px;
+  }
+
+  h1 {
+	font-size: 1.5em;
+	}
+	.top-gray {
+	 background-image: url(copy-cropped-header-default.png);
+	 background-size: 50%;
+	 background-position: 0%;
+	 padding-left: 15%;
+	}
+
+	}
+
